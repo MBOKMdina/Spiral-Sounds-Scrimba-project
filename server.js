@@ -11,6 +11,8 @@ const secret = process.env.SPIRAL_SESSION_SECRET || 'jellyfish-baskingshark';
 
 app.use(express.json()) 
 
+app.set('trust proxy', 1)
+
 app.use(session({
   secret: secret,
   resave: false, 
