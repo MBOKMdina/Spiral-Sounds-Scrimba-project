@@ -351,6 +351,11 @@ button:active {
    Sign in/up forms
 ----------------------------------- */
 
+.warning 
+{
+    color: yellow;
+}
+
 .sign-forms {
     display: flex;
     flex-direction: column;
